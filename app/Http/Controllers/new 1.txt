@@ -1,0 +1,11 @@
+public function MemProductDetail($p_sno)
+    { 
+	   //return ("c_sno = " . $c_sno );
+       $sql = "select * from yproduct  where p_sno = $p_sno";	  
+  	   $ps = DB::select($sql);
+	   
+       if ($ps == NULL)
+			   return "NO DATA........";
+       else
+	     return view('Member.MemProductDetail', [ 'p' =>  $ps[0] ]);	   
+    }

@@ -1,0 +1,29 @@
+
+@extends('layouts.master')
+@section('title', '購物街-商品詳細資料')
+@section('content')
+
+<h1>購物街-商品詳細資料</h1>
+<hr />
+<div class="img-thumbnail text-center" style="margin: 0 auto; width: 80%;">
+		 
+		  <table border=0>
+		  <tr><td>
+              <img src={{ url('images/productPhoto') }}/{{$p->p_photo}}  style="width:120px;" />
+              </td>
+		      <td> <h5>{{ $p->p_name }} </h5>
+			       <p>商品所有人：{{ $p->m_acc }}  </p>		
+                   <p>單價：{{ $p->p_price }}  </p>			   
+			       <p>評價:<label id="fEval" >{{$p->p_eval}} </label></p>
+			 </td>
+          </tr>
+		  
+	</table>
+  </div>      
+
+</div>
+
+
+@stop
+
+
