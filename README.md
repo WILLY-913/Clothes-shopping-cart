@@ -55,30 +55,44 @@
 
 ## 首頁
 
-**會員登入**
+**網站首頁**
+
+![首頁](https://github.com/user-attachments/assets/77e96feb-f8cf-4481-b401-f65beccc04a2)   
 
 
+## **商品列表**
 
-**產品**
+![產品 (3)](https://github.com/user-attachments/assets/72e428bd-2a75-402e-9a83-e03e42f51bb4)
 
-![產品](https://github.com/user-attachments/assets/286a7259-594b-488d-9bae-d3e24770db0e)
+## **< 商品首頁 >**
 
-**訂單**
+* 使用者點擊 LOGO 回到商品首頁
+* 使用者點擊 購物街 可看到排序，有男裝、女裝、夏季服裝、冬季服裝
+* 使用者點擊 查看購物車 可以瀏覽所有商品
+* 使用者點擊 登出 即可登出使用者
+* 使用者點擊加入商品，可以將商品放入到購物車內
 
-![訂單](https://github.com/user-attachments/assets/68980d1d-f087-4560-a892-53f84cd2f482)
+## **購物車清單**
 
-**購物車清單**
+![購物車清單](https://github.com/user-attachments/assets/7fb9635b-1270-44f9-b9c1-e49db86fb17d)
 
-![購物車清單](https://github.com/user-attachments/assets/9a5c858e-374e-406c-8278-9f9af9cdc54d)
+## **< 購物車頁面 >**
 
-**賣家詳情**
+  * 使用者可以瀏覽購物車內所有商品資訊購買金額
+  * 使用者點擊 數量 可以增加或減少商品數量
+  * 使用者點擊 刪除 可以將商品移除購物車
+  * 使用者需填寫姓名、電話、地址，並成立訂單
 
-![賣家](https://github.com/user-attachments/assets/a1baf72c-7733-47b5-bbb8-84ffbc627c7a)
 
-| 網站首頁 | 商品列表 | 購物車 |
-| :-------: | :-------: | :----: |
-|   ![首頁](https://github.com/user-attachments/assets/77e96feb-f8cf-4481-b401-f65beccc04a2)   |   ![產品](https://github.com/user-attachments/assets/286a7259-594b-488d-9bae-d3e24770db0e)   |  ![購物車清單](https://github.com/user-attachments/assets/9a5c858e-374e-406c-8278-9f9af9cdc54d)   |
-| 首頁截圖 | 商品列表截圖 | 購物車截圖 |
+## **賣家詳情**
+
+![賣家](https://github.com/user-attachments/assets/51b83f18-7fbe-4ef2-b0a2-362cfead259d)
+
+## **< 賣家畫面 >**
+
+   * 賣家可以瀏覽買家的所有訂單
+   * 賣家點擊 管理訂單，可以看到訂單詳情
+   * 賣家點擊 會員EXCEL匯入，可將訂單匯入EXCEL
 
 
 
