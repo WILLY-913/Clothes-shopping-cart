@@ -94,7 +94,9 @@
    * 賣家點擊 管理訂單，可以看到訂單詳情
    * 賣家點擊 會員EXCEL匯入，可將訂單匯入EXCEL
 
+# **成品影片**
 
+https://youtu.be/xiUZ9yMX7gM?si=mcUuNrqO3NkUyWmc
 
 
 
