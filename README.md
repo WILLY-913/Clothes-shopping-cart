@@ -57,25 +57,28 @@
 
 **會員登入**
 
-![首頁](https://github.com/user-attachments/assets/d0963d42-1f4e-43a7-adcc-1c4c2f4bc0ad)
+
 
 **產品**
 
-![產品](https://github.com/user-attachments/assets/57b1f1ae-8ba2-48d1-98b9-26ad0d83fdb0)
+![產品](https://github.com/user-attachments/assets/286a7259-594b-488d-9bae-d3e24770db0e)
 
 **訂單**
 
-![訂單](https://github.com/user-attachments/assets/ead35a36-0947-449f-8916-1b3146023aee)
+![訂單](https://github.com/user-attachments/assets/68980d1d-f087-4560-a892-53f84cd2f482)
 
 **購物車清單**
 
-![購物車清單](https://github.com/user-attachments/assets/6429fc8e-1c0d-4b3c-b385-864154723004)
+![購物車清單](https://github.com/user-attachments/assets/9a5c858e-374e-406c-8278-9f9af9cdc54d)
 
 **賣家詳情**
 
-![賣家](https://github.com/user-attachments/assets/79a228c4-49f9-4094-a2c0-0f56c8a14c1a)
+![賣家](https://github.com/user-attachments/assets/a1baf72c-7733-47b5-bbb8-84ffbc627c7a)
 
-
+| 網站首頁 | 商品列表 | 購物車 |
+| :-------: | :-------: | :----: |
+|   ![首頁](https://github.com/user-attachments/assets/77e96feb-f8cf-4481-b401-f65beccc04a2)   |   ![產品](https://github.com/user-attachments/assets/286a7259-594b-488d-9bae-d3e24770db0e)   |  ![購物車清單](https://github.com/user-attachments/assets/9a5c858e-374e-406c-8278-9f9af9cdc54d)   |
+| 首頁截圖 | 商品列表截圖 | 購物車截圖 |
 
 
 
