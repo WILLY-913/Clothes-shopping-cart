@@ -28,27 +28,60 @@
 ### 安裝步驟
 1. **安裝Laravel**
    
-   $   cd  c:\xampp  
-   $   composer  global  require  "laravel/installer"
+       $   cd  c:\xampp  
+       $   composer  global  require  "laravel/installer"
 
 2. 建立專案
    
-   $  cd  c:\xampp\htdocs
+       $  cd  c:\xampp\htdocs
    
-   $  laravel  new  Laravel2022         (Laravel2022  是專案名稱)
+       $  laravel  new  Laravel2022         (Laravel2022  是專案名稱)
    
-   $   cd  c:\xampp\htdocs\Laravel2022
+       $   cd  c:\xampp\htdocs\Laravel2022
    
        ** 啟動 Apache**
 
 4. 運行應用程式
    
-   $ php artisan serve
+       $ php artisan serve
 
-   在 http://127.0.0.1:8000 訪問應用程式。
+       在 http://127.0.0.1:8000 訪問應用程式。
 
 ### 使用說明
 * 首頁：http://127.0.0.1:8000/Home/Index
 * 登入：使用 http://127.0.0.1:8000/Home/Login（可測試預設的管理員/會員角色）。
 * 管理面板：使用管理員帳戶登入後可訪問。
 * 資料庫管理：使用 http://127.0.0.1:8080/phpmyadmin。
+
+## 首頁
+
+**會員登入**
+
+![首頁](https://github.com/user-attachments/assets/d0963d42-1f4e-43a7-adcc-1c4c2f4bc0ad)
+
+**產品**
+
+![產品](https://github.com/user-attachments/assets/57b1f1ae-8ba2-48d1-98b9-26ad0d83fdb0)
+
+**訂單**
+
+![訂單](https://github.com/user-attachments/assets/ead35a36-0947-449f-8916-1b3146023aee)
+
+**購物車清單**
+
+![購物車清單](https://github.com/user-attachments/assets/6429fc8e-1c0d-4b3c-b385-864154723004)
+
+**賣家詳情**
+
+![賣家](https://github.com/user-attachments/assets/79a228c4-49f9-4094-a2c0-0f56c8a14c1a)
+
+
+
+
+
+
+
+
+
+
+
