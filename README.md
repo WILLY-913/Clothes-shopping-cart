@@ -1,5 +1,6 @@
-# -買衣服的購物車
-一個功能完整的電子商務平台，使用 Laravel 構建，具備使用者認證、產品管理、購物車、訂單處理和管理員功能。
+# 買衣服的購物車
+
+一個基於 Laravel 架構的電子商務購物車系統，提供使用者註冊、購物車、訂單管理及管理員後台功能，適合作為電子商務系統的學習案例或開發基礎。
 
 ## 功能
 
@@ -20,6 +21,12 @@
 * **資料庫**：MySQL 8.0
 * **依賴管理**：Composer, PhpOffice/PhpSpreadsheet（用於 Excel 功能）
 * **伺服器**：XAMPP (Apache + MySQL)
+
+## 環境需求
+- PHP 8.0+
+- MySQL 8.0
+- XAMPP (Apache + MySQL)
+- Composer
 
 ### 前置條件
 * 已安裝XAMPP(Apache + MySQL)
@@ -52,6 +59,18 @@
 * 登入：使用 http://127.0.0.1:8000/Home/Login（可測試預設的管理員/會員角色）。
 * 管理面板：使用管理員帳戶登入後可訪問。
 * 資料庫管理：使用 http://127.0.0.1:8080/phpmyadmin。
+
+ ## 預設帳號
+ 
+    - 管理員：
+    
+        - 帳號: admin
+        - 密碼: 123
+        
+    - 一般會員：
+    
+        - 帳號: ysp
+        - 密碼: 123
 
 ## 首頁
 
@@ -96,7 +115,7 @@
 
 # **成品影片**
 
-https://youtu.be/xiUZ9yMX7gM?si=mcUuNrqO3NkUyWmc
+[📹 成品影片展示](https://youtu.be/xiUZ9yMX7gM?si=mcUuNrqO3NkUyWmc)
 
 
 
