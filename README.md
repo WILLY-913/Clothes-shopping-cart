@@ -76,13 +76,11 @@
 
 **網站首頁**
 
-![首頁](https://github.com/user-attachments/assets/77e96feb-f8cf-4481-b401-f65beccc04a2)   
-
+![首頁](img/首頁.jpg)
 
 ## **商品列表**
 
-![產品 (3)](https://github.com/user-attachments/assets/72e428bd-2a75-402e-9a83-e03e42f51bb4)
-
+![產品](img/產品.jpg)
 ## **< 商品首頁 >**
 
 * 使用者點擊 LOGO 回到商品首頁
@@ -93,7 +91,7 @@
 
 ## **購物車清單**
 
-![購物車清單](https://github.com/user-attachments/assets/7fb9635b-1270-44f9-b9c1-e49db86fb17d)
+![購物車清單](img/購物車清單.jpg)
 
 ## **< 購物車頁面 >**
 
@@ -105,7 +103,7 @@
 
 ## **賣家詳情**
 
-![賣家](https://github.com/user-attachments/assets/51b83f18-7fbe-4ef2-b0a2-362cfead259d)
+![賣家](img/賣家.jpg)
 
 ## **< 賣家畫面 >**
 
