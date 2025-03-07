@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1:3307
--- 產生時間： 2025-03-07 16:42:20
+-- 產生時間： 2025-03-07 16:42:39
 -- 伺服器版本： 10.4.32-MariaDB
 -- PHP 版本： 8.1.25
 
@@ -24,38 +24,47 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- 資料表結構 `ymember`
+-- 資料表結構 `yorderdetail`
 --
 
-CREATE TABLE `ymember` (
+CREATE TABLE `yorderdetail` (
+  `od_sno` int(11) NOT NULL,
   `m_acc` varchar(20) NOT NULL,
-  `m_pwd` varchar(20) NOT NULL,
-  `m_name` varchar(20) NOT NULL,
-  `m_photo` varchar(50) DEFAULT 'NoPic.jpg',
-  `m_role` varchar(10) DEFAULT 'member',
-  `m_sex` varchar(10) NOT NULL
+  `p_sno` int(11) NOT NULL,
+  `om_sno` int(11) NOT NULL DEFAULT -1,
+  `od_qty` int(11) NOT NULL,
+  `od_price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- 傾印資料表的資料 `ymember`
+-- 傾印資料表的資料 `yorderdetail`
 --
 
-INSERT INTO `ymember` (`m_acc`, `m_pwd`, `m_name`, `m_photo`, `m_role`, `m_sex`) VALUES
-('admin', '123', '管理員', 'admin.jpg', 'admin', '男'),
-('mary', '123', '馬力', 'mary.jpg', 'member', ''),
-('peter', '123', '彼得', 'peter.jpg', 'member', '女'),
-('tom', '123', '湯姆', 'tom.jpg', 'member', '男'),
-('ysp', '123', '孫葳霖', '67c94b4655510.jpg', 'member', '女');
+INSERT INTO `yorderdetail` (`od_sno`, `m_acc`, `p_sno`, `om_sno`, `od_qty`, `od_price`) VALUES
+(2, 'ysp', 1, 1, 1, 3980),
+(3, 'ysp', 4, 1, 1, 25000),
+(4, 'ysp', 1, 2, 1, 3980),
+(5, 'ysp', 2, 2, 1, 998);
 
 --
 -- 已傾印資料表的索引
 --
 
 --
--- 資料表索引 `ymember`
+-- 資料表索引 `yorderdetail`
 --
-ALTER TABLE `ymember`
-  ADD PRIMARY KEY (`m_acc`);
+ALTER TABLE `yorderdetail`
+  ADD PRIMARY KEY (`od_sno`);
+
+--
+-- 在傾印的資料表使用自動遞增(AUTO_INCREMENT)
+--
+
+--
+-- 使用資料表自動遞增(AUTO_INCREMENT) `yorderdetail`
+--
+ALTER TABLE `yorderdetail`
+  MODIFY `od_sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

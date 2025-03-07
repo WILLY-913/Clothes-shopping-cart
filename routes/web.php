@@ -39,6 +39,7 @@ Route::get('Product/ProductAddCar/{sno}/{acc}/{price}', [ProductController::clas
 Route::get('Product/ProductMyCar', [ProductController::class, 'ProductMyCar']);
 Route::post('Product/ProductCarToOrder', [ProductController::class, 'ProductCarToOrder']);
 Route::get('Product/ProductEval/{sno}/{acc}/{yval}', [ProductController::class, 'ProductEval']);
+Route::delete('Product/ProductDeleteCar/{od_sno}', [ProductController::class, 'ProductDeleteCar']);
 Route::post('Member/MemProductAddDB/', [MemberController::class, 'MemProductAddDB']);
 Route::get('Member/MemInfo', [MemberController::class, 'MemInfo']);
 Route::post('Member/MemInfoUpdate', [MemberController::class, 'MemInfoUpdate']);

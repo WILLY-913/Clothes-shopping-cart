@@ -1,6 +1,6 @@
 
 @extends('layouts.master')
-@section('title', 'Home/index')
+@section('title', '會員帳號匯入')
 @section('content')
 
 <!—資料開始    -->

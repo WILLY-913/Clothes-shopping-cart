@@ -99,7 +99,7 @@
   }
 </script>
 
-<h1>購物街-商品詳細資料</h1>
+<h1>服裝商城-衣衣不捨</h1>
 <hr />
 @php
 	$acc = Session::get("LoginAcc");

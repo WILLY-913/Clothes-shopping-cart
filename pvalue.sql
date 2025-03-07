@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1:3307
--- 產生時間： 2025-03-07 16:42:05
+-- 產生時間： 2025-03-07 16:41:26
 -- 伺服器版本： 10.4.32-MariaDB
 -- PHP 版本： 8.1.25
 
@@ -24,44 +24,51 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- 資料表結構 `ycategory`
+-- 資料表結構 `pvalue`
 --
 
-CREATE TABLE `ycategory` (
-  `c_sno` int(11) NOT NULL,
-  `c_name` varchar(20) NOT NULL,
-  `c_desc` varchar(100) NOT NULL
+CREATE TABLE `pvalue` (
+  `pv_sno` int(11) NOT NULL,
+  `m_acc` varchar(20) NOT NULL,
+  `p_sno` int(11) NOT NULL,
+  `pv_val` int(11) NOT NULL,
+  `pv_date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- 傾印資料表的資料 `ycategory`
+-- 傾印資料表的資料 `pvalue`
 --
 
-INSERT INTO `ycategory` (`c_sno`, `c_name`, `c_desc`) VALUES
-(1, '男裝', '各大廠牌男裝應有盡有'),
-(2, '女裝', '裙子、洋裝'),
-(3, '夏季服裝', '吊嘎'),
-(4, '冬季服裝', '毛帽、外套');
+INSERT INTO `pvalue` (`pv_sno`, `m_acc`, `p_sno`, `pv_val`, `pv_date`) VALUES
+(1, 'ysp', 9, 4, '2022-03-06 19:44:30'),
+(2, 'mary', 7, 3, '2022-03-06 19:44:30'),
+(3, 'peter', 14, 5, '2022-03-06 19:45:52'),
+(4, 'tom', 3, 2, '2022-03-06 19:45:52'),
+(5, 'mary', 2, 3, '2022-03-06 19:46:31'),
+(6, 'tom', 11, 3, '2022-03-06 19:46:31'),
+(7, 'tom', 10, 4, '2022-03-06 19:49:02'),
+(8, 'ysp', 7, 3, '2022-03-06 19:49:02'),
+(11, 'ysp', 6, 4, '2025-03-06 20:43:46');
 
 --
 -- 已傾印資料表的索引
 --
 
 --
--- 資料表索引 `ycategory`
+-- 資料表索引 `pvalue`
 --
-ALTER TABLE `ycategory`
-  ADD PRIMARY KEY (`c_sno`);
+ALTER TABLE `pvalue`
+  ADD PRIMARY KEY (`pv_sno`);
 
 --
 -- 在傾印的資料表使用自動遞增(AUTO_INCREMENT)
 --
 
 --
--- 使用資料表自動遞增(AUTO_INCREMENT) `ycategory`
+-- 使用資料表自動遞增(AUTO_INCREMENT) `pvalue`
 --
-ALTER TABLE `ycategory`
-  MODIFY `c_sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `pvalue`
+  MODIFY `pv_sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -3,7 +3,7 @@
 @section('title', '購物街-商品清單')
 @section('content')
 
-<h1>購物街-商品清單</h1>
+<h1>商城-國王的新衣</h1>
 <hr />
 <div class="container">
    <div class="row">       

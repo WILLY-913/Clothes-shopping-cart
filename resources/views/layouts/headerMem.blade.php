@@ -3,9 +3,24 @@
 @endphp
 
 <header>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #E6F0FA;
+            background-image: url("/images/bk.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            min-height: 100vh;
+        }
+    </style>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="{{url('Home/Index')}}"> <img src={{ url('images/123.jpg')}} width=50 class="rounded-circle"> 孫葳霖</a>
+                <a class="navbar-brand" href="{{url('Home/Index')}}"> 
+                    <img src={{ url('images/123.jpg')}} width=50 class="rounded-circle"> 
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

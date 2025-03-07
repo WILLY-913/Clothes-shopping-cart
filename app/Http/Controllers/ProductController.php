@@ -95,5 +95,27 @@ class ProductController extends Controller
         }
         return $msg;
     }
+    public function ProductDeleteCar(Request $r, $od_sno)
+    {
+        try {
+            $acc = session('LoginAcc'); // 取得當前登入會員帳號
+            if (!$acc) {
+                return response()->json(['success' => false, 'message' => '未登入，無法刪除購物車項目']);
+            }
+
+            // 檢查該項目是否存在且屬於該會員
+            $item = DB::select("SELECT * FROM yorderdetail WHERE od_sno = ? AND m_acc = ? AND om_sno = -1", [$od_sno, $acc]);
+            if (!$item) {
+                return response()->json(['success' => false, 'message' => '找不到該購物車項目或無權限刪除']);
+            }
+
+            // 刪除該項目
+            DB::delete("DELETE FROM yorderdetail WHERE od_sno = ? AND m_acc = ?", [$od_sno, $acc]);
+
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => '刪除失敗：' . $e->getMessage()]);
+        }
+    }
 
 }

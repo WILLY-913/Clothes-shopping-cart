@@ -11,7 +11,7 @@
    @php
       $role = Session::get('LoginRole');
    @endphp
-   role = {{ $role}}
+   
    @if ($role=="admin")
      @include('layouts.headerAdm')
    @elseif ($role=="member")
